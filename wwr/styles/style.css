@@ -14,7 +14,7 @@ nav a{
     text-align: center;
 }
 h4{
-    color: black;
+    color: #373E40;
 }
 .button-box{
     text-align: center;
@@ -38,7 +38,7 @@ nav a:hover{
 }
 .book, .join{
     background-color: #B7D5D4;
-    color: black;
+    color: #373E40;
     text-decoration: none;
 }
 .book:hover, .join:hover{
@@ -47,19 +47,19 @@ nav a:hover{
 }
 footer{
     background-color: #B7D5D4;
-    color: black;
+    color: #373E40;
 }
 .home-title{
-    color: black;
+    color: #373E40;
 }
 .msg h2{
-    color: black;
+    color: #373E40;
 }
 .msg p{
-    color: black;
+    color: #373E40;
 }
 footer a{
-    color: black;
+    color: #373E40;
     text-decoration: none;
 }
 footer a:hover{
