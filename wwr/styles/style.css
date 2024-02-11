@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Quicksand&display=swap');
+/* --heading-font: "Rancho";
+--paragraph-font: Quicksand, Helvetica, sans-serif; */
+a#logo_link{
+    padding-top:5px;
+}
+.msg{
+    background-color: #488286;
+    padding: 35px;
+    line-height: 1.5em;
+}
+h2{
+    margin: 0;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    font-size: 22px;
 }
 nav a{
+    padding: 35px;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -14,6 +30,7 @@ nav a{
     text-align: center;
 }
 h4{
+    font-family:Rancho, Arial, serif;
     color: #373E40;
 }
 .button-box{
@@ -27,6 +44,10 @@ main{
     background-color: #406063;
 }
 body{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Quicksand, Helvetica, sans-serif;
     background-color: #B7D5D4;
 }
 header{
@@ -37,6 +58,10 @@ nav a:hover{
     color: white;
 }
 .book, .join{
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 18px;
     background-color: #B7D5D4;
     color: #373E40;
     text-decoration: none;
@@ -46,17 +71,26 @@ nav a:hover{
     color: white;
 }
 footer{
+    margin-top: 200px;
+    padding: 25px 50px;
     background-color: #B7D5D4;
     color: #373E40;
 }
 .home-title{
+    margin-top: 10px;
+    font-size: 2em;
+    font-family:Rancho, Arial, serif;
     color: #373E40;
 }
 .msg h2{
+    font-family:Rancho, Arial, serif;
     color: #373E40;
 }
 .msg p{
-    color: #373E40;
+    padding-bottom: 15px;
+    font-size: .8em;
+    font-family: Quicksand, Helvetica, sans-serif;
+    color: #ffffff;
 }
 footer a{
     color: #373E40;
@@ -67,6 +101,7 @@ footer a:hover{
     background-color: #488286;
 }
 .logo, .icon{
+    padding-top: 10px;
     width: 80px;
 }
 #hero-img{
@@ -77,4 +112,17 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px  0;
+}
+.card-img{
+    border: 10px solid #373E40;
+
+}
+main section img{
+    box-sizing: border-box;
 }
