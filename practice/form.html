@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        label, input, textarea, button{
+            width: 300px;
+            display: block;
+        }
+        input, textarea{
+            margin-bottom: 1em;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Questions</h1>
+
+    <form action="thankyou.html" method="get">
+
+        <label for="fname">First Name:</label>
+        <input id="fname" name="fname" type="text" placeholder="John">
+
+        <label for="lname">Last Name:</label>
+        <input id="lname" name="lname" type="text" placeholder="Doe">
+
+        <label for="question">Question:</label>
+        <textarea name="question" id="question" placeholder="This is a question"></textarea>
+
+
+        <button type="submit">submit question</button>
+    </form>
+</body>
+</html>
