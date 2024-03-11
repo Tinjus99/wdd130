@@ -188,6 +188,16 @@ main section img{
     opacity: .6;
     transform: scale(1.1);
 }
+img#rates1{
+    max-width: 100%;
+}
+img#rates2{
+    max-width: 400px;
+}
+main.page2{
+    margin: 50px;
+    text-align: left;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
