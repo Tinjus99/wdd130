@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #9A94BC;
+}
+div #content{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    grid-column-start: 2;
+}
+nav.hover{
+    background-color: #9A94BC;
+    color: black;
+}
+nav a{
+    padding: 35px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color:#4F065A;
+}
+.logo{
+    grid-column: 1/2;
+}
+main{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+table, th, td{
+    width: 75%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
